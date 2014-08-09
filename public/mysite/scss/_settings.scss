@@ -8,9 +8,42 @@
 
 // Default Colors
 // $primary-color: #008CBA;
-$primary-color: #246092;
+$primary-color: #0088cc;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
 // $info-color: #a0d3e8;
+
+
+//Menu
+$topbar-bg: #eceef1;
+$topbar-height: 30px;
+
+$topbar-dropdown-bg: $topbar-bg;
+$topbar-dropdown-link-color: $primary-color;
+$topbar-dropdown-link-bg: $topbar-bg;
+$topbar-dropdown-toggle-size: 5px;
+$topbar-dropdown-toggle-color: #fff;
+$topbar-dropdown-toggle-alpha: 0.5;
+
+$topbar-link-color: #81948F;
+$topbar-link-color-hover: #fff;
+$topbar-link-color-active: #fff;
+$topbar-link-color-active-hover: #fff;
+//$topbar-link-weight: normal;
+//$topbar-link-font-size: rem-calc(13);
+$topbar-link-hover-lightness: -10%; // Darken by 10%
+$topbar-link-bg-color-hover: #555555;
+$topbar-link-bg-hover: $primary-color;
+$topbar-link-bg-active: $primary-color;
+$topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
+//$topbar-link-font-family: $body-font-family;
+
+$topbar-dropdown-label-color: #555;
+$topbar-dropdown-label-text-transform: uppercase;
+$topbar-dropdown-label-font-weight: bold;
+$topbar-dropdown-label-font-size: rem-calc(10);
+
+$topbar-divider-border-bottom: solid 1px #fff;
+//$topbar-divider-border-top: solid 1px red;

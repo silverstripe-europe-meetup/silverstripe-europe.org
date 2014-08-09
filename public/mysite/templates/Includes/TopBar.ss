@@ -1,7 +1,9 @@
 <nav class="top-bar" role="navigation" data-topbar>
 	<ul class="title-area">
 		<li class="name">
+			<%--
 			<h1><a href="{$baseUrl}">$SiteConfig.Title</a></h1>
+			--%>
 		</li>
 		<li class="toggle-topbar menu-icon"><a href=""><span>Menu</span></a></li>
 	</ul>
@@ -13,7 +15,9 @@
 				<a href="$Link" title="Go to the $Title.ATT">$MenuTitle</a>
 				<% if $Children %>
 				<ul class="dropdown">
-					<li><label>$MenuTitle</label></li>
+					<li>
+						<a href="$Up.Link">$MenuTitle</a>
+					</li>
 					<% loop $Children %>
 					<li class="<% if $LinkingMode == "current" || $LinkingMode == "section" %>active<% end_if %><% if $Children %> has-dropdown<% end_if %>">
 						<a href="$Link" title="Go to the $Title.ATT">$MenuTitle</a>
@@ -26,7 +30,7 @@
 						<% end_if %>
 					</li>
 					<% end_loop %>
-					<li><a href="$Link">See all &rarr;</a></li>
+					<%-- <li><a href="$Link">See all &rarr;</a></li> --%>
 				</ul>
 				<% end_if %>
 			</li>

@@ -22,11 +22,17 @@
 </head>
 <body class="$ClassName.ATT">
 
+<div class="container">
+
 	<header class="header" role="banner">
-		<div class="fixed contain-to-grid">
-			<% include TopBar %>
+		<div class="large-12 columns">
+			<img src="/mysite/images/silverstripe-logo.png" alt="SilverStripe Europe Meetup"/>
 		</div>
 	</header>
+	
+	<div class="contain-to-grid">
+		<% include TopBar %>
+	</div>
 
 	<div class="main typography" role="main">
 		<div class="row">
@@ -45,11 +51,13 @@
 	<footer class="footer" role="contentinfo">
 		<div class="row">
 			<div class="large-12 columns">
-				<p>&copy; $Now.Year $SiteConfig.Title</p>
+				<p>$Now.Year $SiteConfig.Title</p>
 			</div>
 		</div>
 	</footer>
-
+	
+</div>
+	
 	<%--Login Modal--%>
 	<div id="login-form-modal" class="reveal-modal medium" data-reveal>
 		<h2>Login</h2>
