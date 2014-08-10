@@ -25,9 +25,9 @@
 <div class="container">
 
 	<header class="header" role="banner">
-		<div class="large-12 columns">
+		<a href="/">
 			<img src="/mysite/images/silverstripe-logo.png" alt="SilverStripe Europe Meetup"/>
-		</div>
+		</a>
 	</header>
 	
 	<div class="contain-to-grid">
@@ -40,6 +40,7 @@
 		</div>
 	</div>
 
+	<%--
 	<nav role="navigation">
 		<div class="row">
 			<div class="large-12 columns">
@@ -55,7 +56,8 @@
 			</div>
 		</div>
 	</footer>
-	
+	--%>
+
 </div>
 	
 	<%--Login Modal--%>

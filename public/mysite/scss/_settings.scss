@@ -3,8 +3,9 @@
 
 // Grid
 // $row-width: rem-calc(1000);
-// $column-gutter: rem-calc(30);
+$column-gutter: 60px;
 // $total-columns: 12;
+
 
 // Default Colors
 // $primary-color: #008CBA;
@@ -46,4 +47,12 @@ $topbar-dropdown-label-font-weight: bold;
 $topbar-dropdown-label-font-size: rem-calc(10);
 
 $topbar-divider-border-bottom: solid 1px #fff;
-//$topbar-divider-border-top: solid 1px red;
+$topbar-divider-border-top: solid 1px #fff; //this is visible on the mobile version
+
+//Mobile menu
+
+$topbar-menu-link-color: #888;
+$topbar-menu-icon-color: #888;
+
+
+

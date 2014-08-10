@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-	width:900px;
+	max-width:900px;
 	margin:auto;
 	margin-top:20px;
 	border-radius: 4px;
@@ -18,7 +18,7 @@ body {
 
 header {
 	@include clearfix;
-	padding: 30px 10px;
+	padding: 30px;
 }
 
 
@@ -26,4 +26,17 @@ header {
 .main {
 	padding-top: 32px;
 	min-height: 320px;
+}
+
+p {
+	font-size:14px;
+}
+
+h1, h2 {
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+h2 {
+	color:#777;
 }
