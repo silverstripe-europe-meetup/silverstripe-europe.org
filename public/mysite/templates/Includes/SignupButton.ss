@@ -1,0 +1,1 @@
+<a href="http://www.meetup.com/SilverStripe-Europe-Meetup/events/168730312/" target="_blank" class="button">Sign up!</a>

@@ -50,6 +50,32 @@ h2 {
 	color:#777;
 }
 
+//HomePage
+
+@media #{$medium-up} {
+	.HomePage {
+		.main {
+			background:url("/mysite/images/silverstripe-heart.jpg") no-repeat;
+			background-size:cover;
+			
+			h1 {
+				display:block;
+				font-size:30px;
+				width:450px;
+				color:#fff;
+				small {
+					display: inline-block;
+					color:#333;
+					font-size:20px;
+					width:450px;
+				}
+			}
+		}
+	}
+}
+
+
+
 //SpeakersPage
 
 @media #{$medium-up} {

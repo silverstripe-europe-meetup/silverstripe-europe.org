@@ -4,4 +4,4 @@
 	so we can plan location, catering, and of course <br />
 	<strong>Your free SilverStripe t-shirt!</strong>.
 </p>
-<a href="http://www.meetup.com/SilverStripe-Europe-Meetup/events/168730312/" target="_blank" class="button">Sign up!</a>
+<% include SignupButton %>
