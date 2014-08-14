@@ -26,7 +26,7 @@
 
 	<header class="header" role="banner">
 		<a href="/">
-			<img src="/mysite/images/silverstripe-logo.png" alt="SilverStripe Europe Meetup"/>
+			<img src="/mysite/images/logo-meetup-2014.png" alt="SilverStripe Europe Meetup"/>
 		</a>
 	</header>
 	
