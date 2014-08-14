@@ -49,4 +49,31 @@ h2 {
 	color:#777;
 }
 
+//SpeakersPage
+
+@media #{$medium-up} {
+	.SpeakersPage {
+		.columns.text {
+			padding-left:0px;
+		}
+	}
+}
+.SpeakersPage {
+	.speaker {
+		margin-bottom:20px;
+		
+		h2 {
+			small {
+				text-transform:none;
+				font-size:80%;
+				font-style:italic;
+			}
+		}
+	}
+}
+
+
+
+
+
 @import "mobile";
