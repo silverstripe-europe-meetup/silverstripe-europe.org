@@ -38,6 +38,7 @@
 			<% end_loop %>
 		</ul>
 		<%-- Right Nav Section --%>
+		<%--
 		<ul class="right">
 			<% if $CurrentMember %>
 			<li class="has-dropdown">
@@ -52,5 +53,6 @@
 			<li><a href="Security/login?BackURL=%2Fadmin" data-reveal-id="login-form-modal">Login</a></li>
 			<% end_if %>
 		</ul>
+		--%>
 	</section>
 </nav>

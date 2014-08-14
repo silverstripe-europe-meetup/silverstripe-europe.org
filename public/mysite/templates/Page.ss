@@ -34,6 +34,8 @@
 		<% include TopBar %>
 	</div>
 
+	<img id="badge" src="/mysite/images/2014-badge.png" alt="Badge" />
+	
 	<div class="main typography" role="main">
 		<div class="row">
 			$Layout
@@ -58,8 +60,11 @@
 	</footer>
 	--%>
 
-</div>
 	
+</div>
+
+
+
 	<%--Login Modal--%>
 	<div id="login-form-modal" class="reveal-modal medium" data-reveal>
 		<h2>Login</h2>

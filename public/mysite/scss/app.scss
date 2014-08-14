@@ -14,6 +14,8 @@ body {
 	border-radius: 4px;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 	background:#fff;
+
+	position:relative;
 }
 
 header {
@@ -27,6 +29,12 @@ header {
 	padding-top: 32px;
 	min-height: 320px;
 }
+#badge {
+	position: absolute;
+	right: -80px;
+	top: -24px;
+}
+
 
 p {
 	font-size:14px;
@@ -40,3 +48,5 @@ h1, h2 {
 h2 {
 	color:#777;
 }
+
+@import "mobile";
