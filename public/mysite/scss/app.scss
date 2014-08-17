@@ -100,6 +100,48 @@ h2 {
 }
 
 
+//ProgramPage
+
+.ProgramPage {
+	.day {
+		h3 {
+			.day {
+				display: block;
+				font-size:24px;
+				color:#777;
+				text-transform:uppercase;
+			}
+			.date {
+				font-style:italic;
+				font-size:14px;
+				display:block;
+			}
+		}
+	}
+	.item {
+		margin-bottom:30px;
+		h4 {
+			.time {
+				display:block;
+				color:#777;
+				font-size:11px;
+			}
+			.title {
+				display:block;
+				font-size:14px;
+				font-weight: bold;
+				color: $primary-color;
+			}
+		}
+		.speaker {
+			display:block;
+			color:#777;
+			font-size:11px;
+			font-style:italic;
+		}
+	}
+}
+
 
 
 

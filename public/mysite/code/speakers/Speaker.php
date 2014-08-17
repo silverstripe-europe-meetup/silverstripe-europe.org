@@ -31,6 +31,10 @@ class Speaker extends DataObject {
 			return $fn;
 		}
 	}
+	public function getTitle() {
+		return $this->getFullName();
+	}
+	
 	
 	public function getCMSThumbnail(){
 		$img = $this->Picture();
