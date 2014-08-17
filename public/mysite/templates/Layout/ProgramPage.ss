@@ -15,7 +15,7 @@
 						<% loop $Items %>
 							<div class="item">
 								<h4>
-									<span class="time">$StartTime.Nice</span>
+									<span class="time">$StartTime.Nice<% if $EndTime %> - $EndTime.Nice<% end_if %></span>
 									<span class="title">$Title</span>
 									<% if $Speaker %>
 										<span class="speaker">by $Speaker.FullName</span>
