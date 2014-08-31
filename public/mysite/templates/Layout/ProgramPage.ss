@@ -6,7 +6,7 @@
 
 		<div class="days row">
 			<% loop $Days %>
-				<div class="day medium-4 columns">
+				<div class="day medium-12 columns">
 					<h3>
 						<span class="day">$Weekday</span>
 						<span class="date">$Date</span>

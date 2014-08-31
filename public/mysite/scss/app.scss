@@ -37,18 +37,34 @@ header {
 }
 
 
-p {
-	font-size:14px;
+p, ul {
+	font-size:14px!important;
 }
 
 h1, h2 {
-	font-size:12px;
+	font-size:28px;
 	text-transform:uppercase;
 	font-weight:bold;
 }
 h2 {
 	color:#777;
 }
+
+h3 {
+	font-size: 18px;
+}
+
+h4 {
+	p {
+		text-transform: none;
+	}
+}
+
+
+h3, h4, h5 {
+	text-transform: uppercase;
+}
+
 
 //HomePage
 
