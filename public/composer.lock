@@ -4,20 +4,63 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b58881270efd17de21ecdc2ff982c5ff",
+    "hash": "470c7450785b8955e83c675cd807fcb1",
     "packages": [
+        {
+            "name": "ajshort/silverstripe-gridfieldextensions",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ajshort/silverstripe-gridfieldextensions.git",
+                "reference": "7bf3cf9a319f35ca858385c8146685ee4bfc5ad0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ajshort/silverstripe-gridfieldextensions/zipball/7bf3cf9a319f35ca858385c8146685ee4bfc5ad0",
+                "reference": "7bf3cf9a319f35ca858385c8146685ee4bfc5ad0",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "gridfieldextensions",
+                "screenshots": [
+                    "docs/en/_images/editable-rows.png",
+                    "docs/en/_images/add-existing-search.png"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Short",
+                    "email": "andrewjshort@gmail.com"
+                }
+            ],
+            "description": "A collection of useful grid field components",
+            "homepage": "http://github.com/ajshort/silverstripe-gridfieldextensions",
+            "keywords": [
+                "gridfield",
+                "silverstripe"
+            ],
+            "time": "2014-07-09 12:49:12"
+        },
         {
             "name": "composer/installers",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "41cf781ed1271e25bf31b715416a349996aa2527"
+                "reference": "74fb0a7a1a23696d9c8cc2fba5903f6711cdd067"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/41cf781ed1271e25bf31b715416a349996aa2527",
-                "reference": "41cf781ed1271e25bf31b715416a349996aa2527",
+                "url": "https://api.github.com/repos/composer/installers/zipball/74fb0a7a1a23696d9c8cc2fba5903f6711cdd067",
+                "reference": "74fb0a7a1a23696d9c8cc2fba5903f6711cdd067",
                 "shasum": ""
             },
             "replace": {
@@ -94,7 +137,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-07-22 17:04:15"
+            "time": "2014-08-18 20:00:12"
         },
         {
             "name": "silverstripe/cms",
@@ -228,46 +271,6 @@
                 "silverstripe"
             ],
             "time": "2014-07-16 11:26:46"
-        },
-        {
-            "name": "undefinedoffset/sortablegridfield",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/UndefinedOffset/SortableGridField.git",
-                "reference": "86d08f97574d32ec553edc2eef4bfbc181ef14f1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/86d08f97574d32ec553edc2eef4bfbc181ef14f1",
-                "reference": "86d08f97574d32ec553edc2eef4bfbc181ef14f1",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "*",
-                "silverstripe/framework": ">=3.0.1,<3.2"
-            },
-            "type": "silverstripe-module",
-            "extra": {
-                "installer-name": "sortablegridfield"
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Ed Chipman",
-                    "homepage": "http://www.edchipman.ca",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Adds drag and drop functionality to SilverStripe 3.0's GridField",
-            "keywords": [
-                "gridfield",
-                "silverstripe"
-            ],
-            "time": "2014-08-06 16:15:32"
         }
     ],
     "packages-dev": [
@@ -278,7 +281,7 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "undefinedoffset/sortablegridfield": 20,
+        "ajshort/silverstripe-gridfieldextensions": 20,
         "unclecheese/betterbuttons": 20
     },
     "prefer-stable": false,
