@@ -52,6 +52,12 @@ h2 {
 
 h3 {
 	font-size: 18px;
+	font-weight:bold;
+	color:#777;
+}
+
+h4, h5  {
+	font-size: 15px;
 }
 
 h4 {
@@ -62,6 +68,8 @@ h4 {
 
 
 h3, h4, h5 {
+	font-weight:bold;
+	color:#777;
 	text-transform: uppercase;
 }
 

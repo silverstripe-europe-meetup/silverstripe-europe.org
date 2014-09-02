@@ -13,11 +13,11 @@
 						<% end_with %>
 					</div>
 					<div class="medium-8 columns text">
-						<h2>
+						<h3>
 							$FullName
 							<br />
 							<small>$Oneliner</small>
-						</h2>
+						</h3>
 						$Description
 					</div>
 				</div>
