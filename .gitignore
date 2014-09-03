@@ -6,10 +6,13 @@ public/cms/
 public/framework/
 public/themes/simple
 public/themes/tutorial
-public/sortablegridfield/
+public/gridfieldextensions/
 public/betterbuttons/
 logs
 rotatingbackups
 temp
 .idea
-
+*.iml
+Vagrantfile
+.vagrant
+www
