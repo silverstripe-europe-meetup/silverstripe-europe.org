@@ -74,9 +74,12 @@ class ScheduleLightningSession extends ScheduleTalk {
 				$this->fieldLabel('Talks'),
 				$this->Talks(),
 				GridFieldConfig_RecordEditor::create()
+					->removeComponentsByType('GridFieldSortableHeader')
+					->removeComponentsByType('GridFieldFilterHeader')
 					->addComponent(new GridFieldSortableHeader())
 			));
 		}
+		$return->removeByName('SpeakerID');
 		return $return;
 	}
 }

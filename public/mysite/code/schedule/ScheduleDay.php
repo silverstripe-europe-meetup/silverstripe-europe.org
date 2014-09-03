@@ -32,6 +32,8 @@ class ScheduleDay extends DataObject {
 				$this->fieldLabel('Talks'),
 				$this->Talks(),
 				GridFieldConfig_RecordEditor::create()
+					->removeComponentsByType('GridFieldAddNewButton')
+					->addComponent(new GridFieldAddNewMultiClass())
 			));
 		}
 		return $return;
@@ -62,6 +64,10 @@ class ScheduleDay extends DataObject {
 				'Colspan' => 1,
 				'RowspanCols' => 0,
 			));
+			if ($time == 9) {
+				// hackfix for welcome, didn't thought we have a 30min slot
+				$list[$time]->Time = '09:30';
+			}
 		}
 		$totalCols = 0;
 		foreach ($talks as $talk) {

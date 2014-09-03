@@ -1,6 +1,9 @@
 @import "settings";
 @import "foundation";
 
+$color-blue: #005A92;
+$color-light-grey: #ECEEF1;
+
 body {
 	background: none repeat scroll 0 0 #eceef1;
 	color: #383939;
@@ -41,36 +44,45 @@ p, ul {
 	font-size:14px!important;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	color: $color-blue;
+	font-weight: 300;
+
+	small, .small {
+		text-transform: none;
+		font-size: 70%;
+		color: #000;
+		//font-style: italic;
+	}
+	&.hr {
+		border-bottom: 1px solid $color-blue;
+	}
+}
+
 h1, h2 {
 	font-size:28px;
 	text-transform:uppercase;
-	font-weight:bold;
 }
 h2 {
-	color:#777;
+	font-size: 24px;
 }
 
 h3 {
-	font-size: 18px;
-	font-weight:bold;
-	color:#777;
+	font-size: 20px;
 }
 
-h4, h5  {
-	font-size: 15px;
+h4 {
+	font-size: 18px;
+}
+
+h5  {
+	font-size: 16px;
 }
 
 h4 {
 	p {
 		text-transform: none;
 	}
-}
-
-
-h3, h4, h5 {
-	font-weight:bold;
-	color:#777;
-	text-transform: uppercase;
 }
 
 
@@ -81,7 +93,7 @@ h3, h4, h5 {
 		.main {
 			background:url("/mysite/images/silverstripe-heart.jpg") no-repeat;
 			background-size:cover;
-			
+
 			h1 {
 				display:block;
 				font-size:30px;
@@ -111,60 +123,97 @@ h3, h4, h5 {
 }
 .SpeakersPage {
 	.speaker {
-		margin-bottom:20px;
-		
-		h2 {
-			small {
-				text-transform:none;
-				font-size:80%;
-				font-style:italic;
-			}
-		}
+		margin-bottom: 20px;
 	}
 }
 
-
-//ProgramPage
-
-.ProgramPage {
+.days {
 	.day {
-		h3 {
-			.day {
-				display: block;
-				font-size:24px;
-				color:#777;
-				text-transform:uppercase;
+		table {
+			width: 100%;
+			border: 0;
+			border-spacing: 10px;
+
+			tr {
+				background: transparent;
+
+				td {
+					vertical-align: top;
+					background: transparent;
+
+					&.time {
+						padding: 0;
+
+						span {
+							background: $color-blue;
+							padding: 5px 10px;
+							color: #FFF;
+							display: block;
+						}
+					}
+					&.talk {
+						background: $color-light-grey;
+						padding: 5px 10px;
+
+						.talk-container {
+ 						}
+						h5 {
+							margin-top: 0;
+						}
+						h6 {
+							color: #000;
+							font-weight: bold;
+							font-size: 13px;
+							margin: -8px 0 8px;
+						}
+					}
+				}
 			}
-			.date {
-				font-style:italic;
-				font-size:14px;
-				display:block;
-			}
-		}
-	}
-	.item {
-		margin-bottom:30px;
-		h4 {
-			.time {
-				display:block;
-				color:#777;
-				font-size:11px;
-			}
-			.title {
-				display:block;
-				font-size:14px;
-				font-weight: bold;
-				color: $primary-color;
-			}
-		}
-		.speaker {
-			display:block;
-			color:#777;
-			font-size:11px;
-			font-style:italic;
 		}
 	}
 }
+
+////ProgramPage
+//
+//.ProgramPage {
+//	.day {
+//		h3 {
+//			.day {
+//				display: block;
+//				font-size:24px;
+//				color:#777;
+//				text-transform:uppercase;
+//			}
+//			.date {
+//				font-style:italic;
+//				font-size:14px;
+//				display:block;
+//			}
+//		}
+//	}
+//	.item {
+//		margin-bottom:30px;
+//		h4 {
+//			.time {
+//				display:block;
+//				color:#777;
+//				font-size:11px;
+//			}
+//			.title {
+//				display:block;
+//				font-size:14px;
+//				font-weight: bold;
+//				color: $primary-color;
+//			}
+//		}
+//		.speaker {
+//			display:block;
+//			color:#777;
+//			font-size:11px;
+//			font-style:italic;
+//		}
+//	}
+//}
 
 
 
