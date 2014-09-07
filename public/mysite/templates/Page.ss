@@ -63,7 +63,9 @@
 	
 </div>
 
-
+<div class="credits">
+	<a href="/credits/">credits</a>
+</div>
 
 	<%--Login Modal--%>
 	<div id="login-form-modal" class="reveal-modal medium" data-reveal>

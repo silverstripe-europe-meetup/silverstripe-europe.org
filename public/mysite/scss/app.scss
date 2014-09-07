@@ -14,7 +14,7 @@ body {
 	max-width:900px;
 	margin:auto;
 	margin-top:20px;
-	margin-bottom:20px;
+	margin-bottom:6px;
 	border-radius: 4px;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 	background:#fff;
@@ -37,6 +37,17 @@ header {
 	position: absolute;
 	right: -80px;
 	top: -24px;
+}
+
+.credits {
+	text-align: center;
+	padding-bottom:20px;
+	a {
+		color:#999;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 }
 
 
