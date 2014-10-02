@@ -6,7 +6,9 @@
 		"silverstripe/cms": "3.1.5",
 		"silverstripe/framework": "3.1.5",
 		"ajshort/silverstripe-gridfieldextensions": "dev-master",
-		"unclecheese/betterbuttons": "dev-master"
+		"unclecheese/betterbuttons": "dev-master",
+		"silverstripe/userforms": "dev-master",
+		"rywa/silverstripe-foundation-forms": "dev-master"
 	},
 	"config": {
 		"process-timeout": 600	
