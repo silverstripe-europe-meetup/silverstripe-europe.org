@@ -11,7 +11,18 @@ After:
 Image:
   extensions:
     - 'Greyscaled'
-
+Member:
+  lock_out_after_incorrect_logins: 3
+Director:
+  environment_type: 'live'
+GDBackend:
+  default_quality: 60
+---
+Only:
+  environment: 'live'
+---
+Email:
+  admin_email: 'simon@casa-laguna.net'
 
 #Zauberfisch demands: no theme folder, so here we go ;)
 #SSViewer:
