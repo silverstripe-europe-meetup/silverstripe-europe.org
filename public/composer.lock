@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "198404946ebfad265f974800f8789801",
+    "hash": "b9b89a6a2729225d2dfabd44784b4b6e",
     "packages": [
         {
             "name": "ajshort/silverstripe-gridfieldextensions",
@@ -233,12 +234,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "b58d42f722135ca2d048393a8369322f818b6282"
+                "reference": "bd7f13b3cf1a8f1cdd83c6f2e5f954721f8aaceb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/b58d42f722135ca2d048393a8369322f818b6282",
-                "reference": "b58d42f722135ca2d048393a8369322f818b6282",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/bd7f13b3cf1a8f1cdd83c6f2e5f954721f8aaceb",
+                "reference": "bd7f13b3cf1a8f1cdd83c6f2e5f954721f8aaceb",
                 "shasum": ""
             },
             "require": {
@@ -274,7 +275,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2014-10-02 01:42:53"
+            "time": "2014-10-14 03:21:10"
         },
         {
             "name": "silverstripe/userforms",
@@ -326,12 +327,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/unclecheese/silverstripe-gridfield-betterbuttons.git",
-                "reference": "6206ecba9e9c606883e091bb366928c89bf8cb9a"
+                "reference": "feabffc4976a16f9860cc2768921833a6d97c102"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/unclecheese/silverstripe-gridfield-betterbuttons/zipball/6206ecba9e9c606883e091bb366928c89bf8cb9a",
-                "reference": "6206ecba9e9c606883e091bb366928c89bf8cb9a",
+                "url": "https://api.github.com/repos/unclecheese/silverstripe-gridfield-betterbuttons/zipball/feabffc4976a16f9860cc2768921833a6d97c102",
+                "reference": "feabffc4976a16f9860cc2768921833a6d97c102",
                 "shasum": ""
             },
             "require": {
@@ -345,8 +346,7 @@
             "authors": [
                 {
                     "name": "Uncle Cheese",
-                    "email": "unclecheese@leftandmain.com",
-                    "homepage": "http://leftandmain.com"
+                    "email": "unclecheese@leftandmain.com"
                 }
             ],
             "description": "Adds new form actions and buttons to GridField detail form for usability enhancements.",
@@ -355,7 +355,7 @@
                 "gridfield",
                 "silverstripe"
             ],
-            "time": "2014-07-16 11:26:46"
+            "time": "2014-10-12 23:46:11"
         }
     ],
     "packages-dev": [],
@@ -367,6 +367,7 @@
         "silverstripe/userforms": 20,
         "rywa/silverstripe-foundation-forms": 20
     },
+    "prefer-stable": false,
     "platform": {
         "php": ">=5.3.2"
     },

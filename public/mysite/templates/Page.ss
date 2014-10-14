@@ -33,7 +33,7 @@
 		<% include TopBar %>
 	</div>
 
-	<img id="badge" src="/mysite/images/2014-badge.png" alt="Badge" />
+<%--	<img id="badge" src="/mysite/images/2014-badge.png" alt="Badge" /> --%>
 	
 	<div class="main typography" role="main">
 		<div class="row">
