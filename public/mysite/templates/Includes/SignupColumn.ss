@@ -1,7 +1,7 @@
-<h2>Sign up</h2>
+<h2>See you next year</h2>
 <p>
-	Attendance is free, but you need to sign up, <strong>Latest the 26th September 2014</strong>
-	so we can plan location, catering, and of course <br />
-	<strong>Your free SilverStripe t-shirt!</strong>.
+	Our first meetup/conference was a great success.
+	<br />
+	If you didn't attend, we're hoping to see you next year. Make sure to follow us on meetup.com.
 </p>
 <% include SignupButton %>

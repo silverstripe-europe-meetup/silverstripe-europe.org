@@ -7,9 +7,10 @@
 		--%>
 
 		<h1>
-			Come and join us for the first ever SilverStripe Europe <span style="text-decoration: line-through;">Meetup </span>Conference!</strong>!
+			Thanks to all who joined the first ever SilverStripe Europe <span style="text-decoration: line-through;">Meetup </span>Conference!</strong>!
+			
 			<small>
-				Linz, Austria 3rd & 4th Oct 2014
+				See you next year
 			</small>
 		</h1>
 		
