@@ -1,4 +1,6 @@
 
+
+
 (function($) {
 	$(function () {
 		$(".panorama").panorama_viewer({
