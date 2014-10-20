@@ -13,6 +13,10 @@ public/userforms/
 public/gallery/
 public/sortablefile/
 public/uploaddirrules/
+public/backup/
+scripts/
+
+
 
 public/_ss_environment.php
 logs

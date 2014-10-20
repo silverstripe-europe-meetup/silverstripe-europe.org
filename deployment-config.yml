@@ -1,0 +1,19 @@
+Projectname: "SilverStripe Europe Meetup Site"
+AvailableEnvironments: "Live, Test, Dev"
+Environments:
+  Live:
+    #required
+    Host: "direct.silverstripe-europe.org"
+    Sshuser: "serverpilot"
+    Repodir: "/srv/users/serverpilot/apps/silverstripeeurope"
+
+    #additional settings
+    Sshport: ""
+    Composerdir: "" #not yet implemented
+
+  Test:
+    #here goes data for a test server
+  Dev:
+    #here goes data for dev server - you can add as many servers as you want
+
+
