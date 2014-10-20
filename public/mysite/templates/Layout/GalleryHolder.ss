@@ -11,7 +11,7 @@
 			<li>
 				<a href="$Link">
 					<h3>$Title</h3>
-					<img class="" src="$FirstImage.CroppedImage(1000,300).URL" style="width:100%;">
+					<img class="" src="$FirstImage.CroppedFocusedImage(1000,300).URL" style="width:100%;">
 				</a>
 			</li>
 		<% end_loop %>

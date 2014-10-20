@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a1a26e122f7049d49302acb178f93a4c",
+    "hash": "2d717931506d4b3cf6c5f7eba322cb7f",
     "packages": [
         {
             "name": "ajshort/silverstripe-gridfieldextensions",
@@ -180,6 +180,45 @@
                 "zikula"
             ],
             "time": "2014-10-15 03:40:33"
+        },
+        {
+            "name": "jonom/focuspoint",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jonom/silverstripe-focuspoint.git",
+                "reference": "b7bcef5075f20a4481424f700dd0cf857c86d69b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jonom/silverstripe-focuspoint/zipball/b7bcef5075f20a4481424f700dd0cf857c86d69b",
+                "reference": "b7bcef5075f20a4481424f700dd0cf857c86d69b",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathon Menz",
+                    "homepage": "http://jonathonmenz.com"
+                }
+            ],
+            "description": "Smarter automatic image cropping for SilverStripe",
+            "keywords": [
+                "crop",
+                "cropping",
+                "focus",
+                "focuspoint",
+                "image",
+                "silverstripe"
+            ],
+            "time": "2014-09-15 22:35:57"
         },
         {
             "name": "rywa/silverstripe-foundation-forms",
@@ -476,7 +515,8 @@
         "ajshort/silverstripe-gridfieldextensions": 20,
         "unclecheese/betterbuttons": 20,
         "silverstripe/userforms": 20,
-        "rywa/silverstripe-foundation-forms": 20
+        "rywa/silverstripe-foundation-forms": 20,
+        "jonom/focuspoint": 20
     },
     "prefer-stable": false,
     "platform": {
