@@ -8,9 +8,9 @@
 
 	<div class="PanoramaList">
 		<% loop $SortedImages %>
-			<div class="panorama">
-				<img class="" src="$SetWidth(3000).URL" />
-			</div>
+			<a href="$SetWidth(3000).URL">
+				<img src="$CroppedFocusedImage(1000,300).URL" />
+			</a>
 		<% end_loop %>
 
 	</div>

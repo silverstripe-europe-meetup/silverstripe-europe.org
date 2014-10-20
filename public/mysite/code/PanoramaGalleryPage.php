@@ -14,9 +14,9 @@ class PanoramaGalleryPage_Controller extends GalleryPage_Controller {
 
 	public function init() {
 		parent::init();
-		Requirements::javascript('mysite/thirdparty/panorama-viewer/jquery.panorama_viewer.min.js');
-		Requirements::css('mysite/thirdparty/panorama-viewer/panorama_viewer.css');
-		Requirements::javascript('mysite/javascript/PanoramaGalleryPage.js');
+		//Requirements::javascript('mysite/thirdparty/panorama-viewer/jquery.panorama_viewer.min.js');
+		//Requirements::css('mysite/thirdparty/panorama-viewer/panorama_viewer.css');
+		//Requirements::javascript('mysite/javascript/PanoramaGalleryPage.js');
 	}
 	
 }
