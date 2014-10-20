@@ -200,9 +200,11 @@ h4 {
 .PanoramaGalleryPage {
 	.PanoramaList {
 		img {
-			max-width:auto;
+			max-width:3000px;
 			height:400px;
+			margin-bottom:20px;
 		}
+		margin-bottom: 40px;
 	}
 }
 
