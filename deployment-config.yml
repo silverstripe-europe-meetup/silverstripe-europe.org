@@ -9,7 +9,7 @@ Environments:
 
     #additional settings
     Sshport: ""
-    Composerdir: "" #not yet implemented
+    Composerpath: "/srv/users/serverpilot/apps/silverstripeeurope/public/composer.phar"
 
   Test:
     #here goes data for a test server
