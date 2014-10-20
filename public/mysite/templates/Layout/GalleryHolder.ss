@@ -6,7 +6,7 @@
 		$Form
 	</article>
 
-	<ul class="inline-list">
+	<ul class="inline-list GalleryHolderList">
 		<% loop $Children %>
 			<li>
 				<a href="$Link">
