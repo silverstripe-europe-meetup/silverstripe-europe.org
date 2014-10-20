@@ -9,8 +9,8 @@
 	<ul class="clearing-thumbs GalleryList" data-clearing>
 		<% loop $SortedImages %>
 			<li>
-				<a href="$SetWidth(1200).URL">
-					<img class="th" src="$CroppedImage(800,480).URL" width="400" height="240" />
+				<a href="$SetWidth(1600).URL">
+					<img class="th" src="$CroppedFocusedImage(800,480).URL" width="400" height="240" />
 				</a>
 			</li>
 		<% end_loop %>
