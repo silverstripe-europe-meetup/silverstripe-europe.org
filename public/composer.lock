@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b9b89a6a2729225d2dfabd44784b4b6e",
+    "hash": "a1a26e122f7049d49302acb178f93a4c",
     "packages": [
         {
             "name": "ajshort/silverstripe-gridfieldextensions",
@@ -50,17 +50,57 @@
             "time": "2014-07-09 12:49:12"
         },
         {
+            "name": "bummzack/sortablefile",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bummzack/sortablefile.git",
+                "reference": "ea0e0202c2844571b9a08bc2bcd524ad27b55b2b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bummzack/sortablefile/zipball/ea0e0202c2844571b9a08bc2bcd524ad27b55b2b",
+                "reference": "ea0e0202c2844571b9a08bc2bcd524ad27b55b2b",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "bummzack"
+                }
+            ],
+            "description": "An extension for SilverStripe 3.1 that allows sorting of multiple attached images (extends UploadField).",
+            "keywords": [
+                "cms",
+                "silverstripe",
+                "sortable"
+            ],
+            "time": "2014-09-30 13:47:46"
+        },
+        {
             "name": "composer/installers",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "5ed225fe8545c4e4bf502d56fdd87791ecfdd078"
+                "reference": "09e2192a7cd08008e273355fddd38942d8de2992"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/5ed225fe8545c4e4bf502d56fdd87791ecfdd078",
-                "reference": "5ed225fe8545c4e4bf502d56fdd87791ecfdd078",
+                "url": "https://api.github.com/repos/composer/installers/zipball/09e2192a7cd08008e273355fddd38942d8de2992",
+                "reference": "09e2192a7cd08008e273355fddd38942d8de2992",
                 "shasum": ""
             },
             "replace": {
@@ -139,7 +179,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-09-25 03:36:45"
+            "time": "2014-10-15 03:40:33"
         },
         {
             "name": "rywa/silverstripe-foundation-forms",
@@ -187,12 +227,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-cms.git",
-                "reference": "f486c3250be1b36e694d181624a6089aaa023e46"
+                "reference": "286dfe4d86d217913a4d5951edba2c2eeb4b9d00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/f486c3250be1b36e694d181624a6089aaa023e46",
-                "reference": "f486c3250be1b36e694d181624a6089aaa023e46",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/286dfe4d86d217913a4d5951edba2c2eeb4b9d00",
+                "reference": "286dfe4d86d217913a4d5951edba2c2eeb4b9d00",
                 "shasum": ""
             },
             "require": {
@@ -226,7 +266,7 @@
                 "cms",
                 "silverstripe"
             ],
-            "time": "2014-09-18 00:59:20"
+            "time": "2014-10-15 21:36:31"
         },
         {
             "name": "silverstripe/framework",
@@ -234,12 +274,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "bd7f13b3cf1a8f1cdd83c6f2e5f954721f8aaceb"
+                "reference": "dc919dc3d91692ee5c4d04b7405abad980d5869e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/bd7f13b3cf1a8f1cdd83c6f2e5f954721f8aaceb",
-                "reference": "bd7f13b3cf1a8f1cdd83c6f2e5f954721f8aaceb",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/dc919dc3d91692ee5c4d04b7405abad980d5869e",
+                "reference": "dc919dc3d91692ee5c4d04b7405abad980d5869e",
                 "shasum": ""
             },
             "require": {
@@ -275,7 +315,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2014-10-14 03:21:10"
+            "time": "2014-10-15 22:55:55"
         },
         {
             "name": "silverstripe/userforms",
@@ -320,6 +360,77 @@
                 "userforms"
             ],
             "time": "2014-08-25 06:42:29"
+        },
+        {
+            "name": "titledk/silverstripe-gallery",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/titledk/silverstripe-gallery.git",
+                "reference": "7dc861612b36c2b9873cd3e5ef5c5f4b8342249e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/titledk/silverstripe-gallery/zipball/7dc861612b36c2b9873cd3e5ef5c5f4b8342249e",
+                "reference": "7dc861612b36c2b9873cd3e5ef5c5f4b8342249e",
+                "shasum": ""
+            },
+            "require": {
+                "bummzack/sortablefile": "*",
+                "titledk/silverstripe-uploaddirrules": "*"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "gallery"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Anselm Christophersen",
+                    "email": "ac@anselm.dk"
+                }
+            ],
+            "description": "A simple gallery backend for SilverStripe 3 with advanced directory saving rules",
+            "homepage": "https://bitbucket.org/titledk/silverstripe-gallery",
+            "keywords": [
+                "gallery",
+                "silverstripe"
+            ],
+            "time": "2014-10-20 09:10:14"
+        },
+        {
+            "name": "titledk/silverstripe-uploaddirrules",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/titledk/silverstripe-uploaddirrules.git",
+                "reference": "40a4b4e3ef8e8da82f68bd4a04cd1b0ddb5085cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/titledk/silverstripe-uploaddirrules/zipball/40a4b4e3ef8e8da82f68bd4a04cd1b0ddb5085cb",
+                "reference": "40a4b4e3ef8e8da82f68bd4a04cd1b0ddb5085cb",
+                "shasum": ""
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "uploaddirrules"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Anselm Christophersen",
+                    "email": "ac@anselm.dk"
+                }
+            ],
+            "description": "Rules to keep the SilverStripe assets directory tidy",
+            "homepage": "https://bitbucket.org/titledk/silverstripe-gallery",
+            "keywords": [
+                "assets",
+                "silverstripe",
+                "subsites"
+            ],
+            "time": "2014-10-20 09:02:50"
         },
         {
             "name": "unclecheese/betterbuttons",

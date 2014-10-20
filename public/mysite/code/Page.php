@@ -34,6 +34,15 @@ class Page_Controller extends ContentController {
 		// See: http://doc.silverstripe.org/framework/en/reference/requirements
 		
 		Requirements::css('mysite/css/app.css');
+
+
+		$ThemeDir = 'mysite';
+		
+		Requirements::javascript("$ThemeDir/bower_components/jquery/dist/jquery.min.js");
+		Requirements::javascript("$ThemeDir/bower_components/foundation/js/foundation.min.js");
+		Requirements::javascript("$ThemeDir/javascript/app.js");
+		
+		
 	}
 
 }
