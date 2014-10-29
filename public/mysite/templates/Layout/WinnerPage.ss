@@ -14,7 +14,7 @@
 		<% end_loop %>
 		</p>
 		<p>All winners will be contacted personally.</p>
-		
+		$Content		
 	</article>
 </div>
 
