@@ -24,7 +24,9 @@ class WinnerPage_Controller extends Page_Controller
 		parent::init();
 		$this->Jetbrains = JetbrainsWishers::get()->filter(array('Won' => true));
 		if ($this->Jetbrains->count() < 5) {
-			$winOptions = SubmittedFormField::get()->filterAny(array('Value' => 'JetBrains PHPStorm license'));
+			$winOptions = SubmittedFormField::get()
+				->filterAny(array('Name' => 'EditableDropdown15'))
+				->exclude(array('Value' => 'GitHub Micro License'));
 			foreach ($winOptions as $option) {
 				$this->findOrCreateWinner($option, JetbrainsWishers::create());
 			}
