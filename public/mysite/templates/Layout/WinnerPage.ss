@@ -1,7 +1,7 @@
 <div class="<% if $Children || $Parent %>large-6 large-push-3<% else %>large-9<% end_if %> columns">
 	<article>
 		<h2>$Title</h2>
-		<h3>JetBrains PHPStorm licens winners:</h3>
+		<h3>JetBrains PHPStorm license winners:</h3>
 		<p>
 		<% loop $Jetbrains %>
 		$Name<br />
