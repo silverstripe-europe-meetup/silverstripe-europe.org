@@ -8,7 +8,9 @@
 		"ajshort/silverstripe-gridfieldextensions": "dev-master",
 		"unclecheese/betterbuttons": "dev-master",
 		"silverstripe/userforms": "dev-master",
-		"rywa/silverstripe-foundation-forms": "dev-master"
+		"rywa/silverstripe-foundation-forms": "dev-master",
+		"titledk/silverstripe-gallery": "*",
+		"jonom/focuspoint": "dev-master"
 	},
 	"config": {
 		"process-timeout": 600	

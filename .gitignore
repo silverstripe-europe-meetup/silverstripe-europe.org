@@ -10,6 +10,17 @@ public/gridfieldextensions/
 public/betterbuttons/
 public/foundationforms/
 public/userforms/
+public/gallery/
+public/sortablefile/
+public/uploaddirrules/
+public/backup/
+public/focuspoint/
+
+scripts/
+public/composer.phar
+
+
+
 public/_ss_environment.php
 logs
 rotatingbackups

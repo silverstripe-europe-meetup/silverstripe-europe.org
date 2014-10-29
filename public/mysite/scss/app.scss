@@ -184,6 +184,44 @@ h4 {
 	}
 }
 
+//GalleryHolder
+
+.GalleryHolder {
+	.GalleryHolderList {
+		li {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+//GalleryPage
+
+.GalleryPage {
+	.GalleryList {
+		margin-bottom:20px;
+		li {
+			margin-bottom:20px;
+		}
+	}
+}
+
+//Panorama Gallery Page
+
+.PanoramaGalleryPage {
+	.PanoramaList {
+		img {
+			//max-width:inherit;
+			//width:auto;
+			//height:auto;
+			
+			width:100%;
+			margin-bottom:12px;
+		}
+		margin-bottom: 40px;
+	}
+}
+
+
 ////ProgramPage
 //
 //.ProgramPage {

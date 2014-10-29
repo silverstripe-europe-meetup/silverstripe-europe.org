@@ -8,6 +8,10 @@ After:
 # See http://doc.silverstripe.org/framework/en/topics/configuration
 # Caution: Indentation through two spaces, not tabs
 
+GalleryPage:
+  extensions:
+    - AssetsFolderExtension
+    - UploadDirRules_SiteTreeExtension
 Image:
   extensions:
     - 'Greyscaled'
