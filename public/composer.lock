@@ -55,12 +55,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "5ed225fe8545c4e4bf502d56fdd87791ecfdd078"
+                "reference": "27697a73b7a68b4a834e45fe560bea23ec3b3435"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/5ed225fe8545c4e4bf502d56fdd87791ecfdd078",
-                "reference": "5ed225fe8545c4e4bf502d56fdd87791ecfdd078",
+                "url": "https://api.github.com/repos/composer/installers/zipball/27697a73b7a68b4a834e45fe560bea23ec3b3435",
+                "reference": "27697a73b7a68b4a834e45fe560bea23ec3b3435",
                 "shasum": ""
             },
             "replace": {
@@ -139,7 +139,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-09-25 03:36:45"
+            "time": "2014-10-25 22:13:47"
         },
         {
             "name": "rywa/silverstripe-foundation-forms",
@@ -187,12 +187,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-cms.git",
-                "reference": "f486c3250be1b36e694d181624a6089aaa023e46"
+                "reference": "7fc5a29f3591db9346dfec19f8b87a56587c1309"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/f486c3250be1b36e694d181624a6089aaa023e46",
-                "reference": "f486c3250be1b36e694d181624a6089aaa023e46",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/7fc5a29f3591db9346dfec19f8b87a56587c1309",
+                "reference": "7fc5a29f3591db9346dfec19f8b87a56587c1309",
                 "shasum": ""
             },
             "require": {
@@ -226,7 +226,7 @@
                 "cms",
                 "silverstripe"
             ],
-            "time": "2014-09-18 00:59:20"
+            "time": "2014-10-23 22:24:11"
         },
         {
             "name": "silverstripe/framework",
@@ -234,12 +234,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "bd7f13b3cf1a8f1cdd83c6f2e5f954721f8aaceb"
+                "reference": "db1c7e89f057b5d974b9a8631e513c1fd4514cec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/bd7f13b3cf1a8f1cdd83c6f2e5f954721f8aaceb",
-                "reference": "bd7f13b3cf1a8f1cdd83c6f2e5f954721f8aaceb",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/db1c7e89f057b5d974b9a8631e513c1fd4514cec",
+                "reference": "db1c7e89f057b5d974b9a8631e513c1fd4514cec",
                 "shasum": ""
             },
             "require": {
@@ -275,7 +275,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2014-10-14 03:21:10"
+            "time": "2014-10-27 20:54:50"
         },
         {
             "name": "silverstripe/userforms",
