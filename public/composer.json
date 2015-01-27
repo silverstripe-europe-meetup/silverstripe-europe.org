@@ -5,7 +5,7 @@
 		"php": ">=5.3.2",
 		"silverstripe/cms": "3.1.*",
 		"silverstripe/framework": "3.1.*",
-		"ajshort/silverstripe-gridfieldextensions": "dev-master",
+		"silverstripe-australia/gridfieldextensions": "dev-master",
 		"unclecheese/betterbuttons": "dev-master",
 		"silverstripe/userforms": "dev-master",
 		"rywa/silverstripe-foundation-forms": "dev-master",
